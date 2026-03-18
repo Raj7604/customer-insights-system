@@ -138,7 +138,7 @@ const Recommendations: React.FC<RecommendationsProps> = ({ customers, products, 
     const product = rec.product;
 
     return (
-      <div key={`${isManual ? 'manual' : 'auto'}-${rec.id}`} className={`border rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors ${
+      <div key={`${isManual ? 'manual' : 'auto'}-${Math.random()}`} className={`border rounded-lg p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors ${
         isManual ? 'border-blue-200 bg-blue-50 dark:bg-blue-900/20' : 'border-gray-200'
       }`}>
         <div className="flex items-start justify-between mb-2">
