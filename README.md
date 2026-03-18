@@ -1,5 +1,7 @@
 # Customer Insights & Recommendation System
+## 🌐 Live Demo
 
+👉 **[Click here to view live project 🚀](https://customer-insights-system-ynln-j8igsabcu.vercel.app)**
 A comprehensive full-stack web application for analyzing customer data and generating actionable insights with personalized product recommendations.
 
 ## 🎯 Features
